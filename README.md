@@ -37,15 +37,15 @@ CGPA = Average of all semester SGPAs
 ## Grade Points System 📊
 
 | Grade | Points |
-|------|--------_|
-| O    |  10     |
-| A+   |  9.5    |
-| A    |   9     |
-| B+   |   8     |
-| B    |   7     |
-| C    |   6     |
-| P    |   5     | 
-| F    |   0     | 
+|------|--------|
+| O | 10 |
+| A+ | 9.5 |
+| A | 9 |
+| B+ | 8 |
+| B | 7 |
+| C | 6 |
+| P | 5 |
+| F | 0 |
 
 ---
 
