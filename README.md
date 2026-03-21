@@ -95,6 +95,6 @@ Ajay Kumar
 
 ---
 
-## Repository Description (paste in GitHub description box)
+## Repository Description 
 
 An easy-to-use CGPA calculator that computes SGPA and CGPA based on grades and credits, helping students track academic performance and plan future goals.
