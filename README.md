@@ -1,33 +1,32 @@
 # CGPA Calculator 🎓
 
-A modern and interactive **CGPA Calculator** that helps students calculate SGPA and CGPA easily across all 8 semesters.  
-It also includes a **Target Planner** to estimate the SGPA required to reach a desired CGPA goal.
+A web-based CGPA Calculator that helps students calculate SGPA and CGPA quickly and accurately across multiple semesters.
+The application also includes a target planner to estimate the SGPA required to achieve a desired CGPA.
 
-This tool helps students **track academic performance, plan goals, and visualize progress semester-wise**.
+This tool helps students track academic performance, monitor semester-wise progress, and plan academic goals effectively.
 
 ---
 
 ## Features ✨
 
-- Calculate **SGPA** for each semester
-- Calculate **overall CGPA** automatically
-- Option to **enter SGPA directly**
-- **Subject-wise grade entry**
-- **Target Planner** to set CGPA goal
-- **Performance visualization** across semesters
-- Add **custom subjects with credits**
-- Profile section to store student details
-- Clean and modern UI
-- Supports up to **8 semesters**
+* Calculate SGPA for each semester
+* Automatically compute overall CGPA
+* Enter subject-wise grades and credits
+* Option to enter SGPA directly
+* Target CGPA planner to estimate required SGPA
+* Store student profile details
+* Supports up to 8 semesters
+* Real-time calculation
+* Simple and user-friendly interface
+* Flexible input for custom subjects
+* Hosted online using Firebase
 
 ---
 
-## How CGPA is Calculated 🧮
+## Calculation Formula 🧮
 
-### SGPA Formula
-SGPA = Σ (Credits × Grade Points) / Σ Credits
+SGPA = Σ (Credit × Grade Point) / Σ Credits
 
-### CGPA Formula
 CGPA = Average of all semester SGPAs
 
 ---
@@ -35,57 +34,65 @@ CGPA = Average of all semester SGPAs
 ## Grade Points System 📊
 
 | Grade | Points |
-|------|--------|
-| O | 10 |
-| A+ | 9.5 |
-| A | 9 |
-| B+ | 8 |
-| B | 7 |
-| C | 6 |
-| P | 5 |
-| F | 0 |
+| ----- | ------ |
+| O     | 10     |
+| A+    | 9.5    |
+| A     | 9      |
+| B+    | 8      |
+| B     | 7      |
+| C     | 6      |
+| P     | 5      |
+| F     | 0      |
 
 ---
 
 ## Technologies Used 💻
 
-- HTML
-- CSS
-- JavaScript
+HTML
+CSS
+JavaScript
+Firebase Hosting
+Firebase Firestore Database
 
 ---
 
 ## How to Use 🚀
 
-1. Enter your personal details
-2. Select branch and semester
-3. Choose calculation method:
-   - Enter SGPA directly OR
-   - Enter subject grades and credits
-4. View SGPA and CGPA instantly
-5. Use Target Planner to calculate required SGPA
+1. Enter student details
+2. Select semester
+3. Enter subject grades OR SGPA directly
+4. View SGPA instantly
+5. Track CGPA across semesters
+6. Use target planner for goal CGPA
 
 ---
 
 ## Project Structure 📂
 
-```
 cgpa-calculator
 │
 ├── index.html
+├── firebase.json
+├── .firebaserc
+├── 404.html
 ├── README.md
-```
 
 ---
 
 ## Future Improvements 🔮
 
-- Save student data permanently
-- Export CGPA report as PDF
-- Mobile app version
-- Login system
-- Performance analytics graph
-- Dark/light theme toggle
+* Login system
+* Export PDF report
+* Graph visualization
+* Dark mode
+* Mobile responsive UI
+* Admin dashboard
+
+---
+
+## Live Website 🌐
+
+https://cgpacalc-79de4.web.app
 
 ---
 
@@ -95,6 +102,6 @@ Ajay Kumar
 
 ---
 
-## Repository Description 
+## Repository Description
 
-An easy-to-use CGPA calculator that computes SGPA and CGPA based on grades and credits, helping students track academic performance and plan future goals.
+An interactive CGPA calculator that enables students to compute SGPA and CGPA, track academic performance, and plan target grades efficiently using a simple web interface integrated with Firebase.
